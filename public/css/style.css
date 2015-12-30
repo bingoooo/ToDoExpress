@@ -1,0 +1,155 @@
+body {
+	font-family: Poiret One;
+	background-image: url("./../images/back.png");
+	/*background-color: #cccccc;*/
+	margin: auto;
+	width: 600px;
+	
+}
+h1 {
+	text-align: center;
+}
+h2 {
+	text-align: center;
+	color: rgba(100,100,150,0.9);
+}
+form input, form button {
+	display: inline;
+}
+#newTodo {
+	font-size: 19px;
+	/*width: 525px;*/
+	width:575px;
+	padding: 10px;
+	border-color: lightblue;
+	border-radius: 5px;
+}
+form button {
+	width: 46px;
+	height: 46px;
+}
+#todolist div {
+	padding: 10px 0px 10px 0px;
+}
+
+ul {
+	padding:0;
+	margin: 0;
+}
+
+#todolist div {
+	padding: 10px 0;
+	margin:0;
+	/*border: 3px solid lightblue;*/
+}
+.todo {
+	border: none;
+}
+.todo:hover {
+	cursor : default;
+	font-style: underline;
+	background-color: rgba(0,0,200,0.5);
+	border-bottom: 2px solid lightgrey;
+}
+.todo-checkbox {
+	width:14px;
+}
+.todo-checkbox:hover {
+	cursor: pointer;
+}
+.ischecked {
+	text-decoration: line-through;
+	color: lightgrey;
+}
+
+.todo-content {
+	font-size:19px;
+}
+.edit {
+	width:auto;
+	height: 1em;
+}
+button {
+	text-align: center;
+	font-weight: bold;
+	background-color: lightblue;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+.delete {
+	width:26px;
+	height:26px;
+	float:right;
+	color: rgba(0,0,0,0);
+	margin-right: 5px;
+	border-radius: 50%;
+}
+.delete:hover {
+	cursor: pointer;
+	background-color: red;
+	color: rgba(100,100,100,1.0);
+}
+footer {
+	border: 1px solid lightblue;
+	padding: 10px 0px 10px 0px;
+}
+
+#main-box {
+	box-shadow: 5px 5px rgba(10,10,10,0.5);
+	border: 1px solid lightblue;
+	border-radius: 5px;
+	
+}
+
+footer div {
+	display:inline;
+}
+
+footer div div {
+	margin: 0 2px;
+}
+#status {
+	float:left;
+	width:29%;
+	padding-left: 8px;
+}
+
+#clear {
+	text-align: right;
+	/*float: right;*/
+	margin-left: 5em;
+}
+#display-options {
+	width:38%;
+	margin: 0 auto;
+}
+.selectable {
+	border: 2px solid rgba(0,0,0,0);
+	border-radius: 5px;
+	padding: 4px; 
+}
+.selectable:hover {
+	cursor: pointer;
+	border: 2px solid lightgrey;
+}
+.selected {
+	border: 2px solid lightblue;
+	border-radius: 5px;
+	padding: 4px;
+}
+
+#main {
+	padding: 10px 0 0 0;
+	text-align: center;
+	font-size: 12px;
+}
+#main p {
+	margin:0;
+}
+
+.hide {
+	display:none;
+}

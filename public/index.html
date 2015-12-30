@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My To Do App</title>
+		<meta charset="utf-8">
+		<link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<!--script type="text/javascript" src="js/app.js"></script-->
+		<script type="text/javascript" src="js/appjo.js"></script>
+	</head>
+	<body>
+		<h1>Session du 07-12-2015</h1>
+		<h2>Todo App</h2>
+		<div id="main-box">
+			<form>
+				<input id="newTodo" placeholder="Quelque chose à faire..." autofocus><!--button id="#add-button">+</button-->		
+			</form>
+
+			<form>	
+				<ul id="todolist">
+					<!--<div><input type="checkbox" class="todo-checkbox" {checked}>
+					<span class="todo-content">Manger</span>tabindex="0"
+					<button class="delete">X</button></div>-->
+				</ul>
+			</form>
+
+			<footer>
+				<div id="status"></div>
+				<div id="display-options">
+					<div id="show-all" class="selectable">All</div>
+					<div id="active" class="selectable">Active</div>
+					<div id="completed" class="selectable">Completed</div>
+					<div id="clear" class="selectable">Clear Completed</div>
+				</div>
+			</footer>
+		</div>
+		<section id="main">
+			<p>Entrez une activité à faire dans la première case.</p>
+			<p>Cliquez "All" pour afficher toutes les taches</p>
+			<p>Cliquez "Active" pour n'afficher que les taches en cours</p>
+			<p>Cliquez "Completed" pour n'afficher que les taches accomplies</p>
+		</section>
+	</body>
+</html>
