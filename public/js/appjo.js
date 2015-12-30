@@ -33,13 +33,10 @@ $(document).ready(function(){
 			//Fonction initialisant les évènements au rafraichissement de la page
 			elements : function(){
 				$('#newTodo').on("keypress",app.addToList);	//Event listener lié à l'ajout d'une tache (input id="newTodo") appui sur Entrée
-				//$('#newTodo').submit(app.addToList2);
-				//$('#todolist').on("change", 'span:todo-content', app.editTask);
 				$('#show-all').on("click", app.all);			//Event listener lié au boutton All (montre toutes les taches)
 				$('#active').on("click", app.active);			//Event listener lié au boutton Active (montre les taches en cours, non cochées)
 				$('#completed').on("click", app.completed);	//Event listener lié au boutton Completed (montre les taches finies, cochées)
 				$('#clear').on("click", app.clear);			//Event listener lié au boutton Clear (efface les taches finies, cochées)
-				//$('.todo-content').on("dbclick", this.editTask);
 				app.updateItemCount();							//Rafraichissement du nombre de tâches à accomplir
 			},
 			//Fonction qui met à jour les évènements liés à la liste des tâches
